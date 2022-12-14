@@ -19,6 +19,7 @@ async function bootstrap() {
   const options = new DocumentBuilder()
     .setTitle('TG Market API documentation')
     .setVersion('1.0')
+    .addBearerAuth()
     .build();
 
   app.setGlobalPrefix('api');
