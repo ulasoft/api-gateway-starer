@@ -1,7 +1,6 @@
 import { Module } from '@nestjs/common';
-import { CoinModule } from './coin/coin.module';
 
 @Module({
-  imports: [CoinModule],
+  imports: [],
 })
 export class ModulesModule {}
