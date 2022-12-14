@@ -30,7 +30,7 @@ export class HistoryOneResDto {
   product: ProductResDto;
   @ApiProperty({ example: '2022-12-12 00:05:00' })
   created_at: string;
-  @ApiProperty({ example: '2022-12-13 00:04:59' })
+  @ApiProperty({ example: '2022-12-14 00:04:59' })
   experied_at: string;
   @ApiProperty({ example: 10000 })
   price: number;
